@@ -1,4 +1,4 @@
-# vue-vuetify-test
+# vue-starter-app
 
 ## Project setup
 ```
