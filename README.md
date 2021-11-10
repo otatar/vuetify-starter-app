@@ -1,5 +1,8 @@
 # vue-starter-app
 
+## Demo
+[Demo](https://otatar.github.io/vuetify-starter-app)
+
 ## Project setup
 ```
 npm install
