@@ -69,7 +69,6 @@ export default {
     submit() {
       this.$v.form.$touch();
       if(!this.$v.form.$invalid) {
-        console.log('Username: %s, password: %s', this.form.username, this.form.password);
         this.$store.dispatch('logIn', this.form.username, this.form.password);
         if (this.$store.state.userAccountModule.isLoggedIn) {
           if (this.$route.query.redirect) {
