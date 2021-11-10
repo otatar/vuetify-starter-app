@@ -11,7 +11,7 @@
           />
         </v-col>
         <v-col cols="12">
-          <h1>Welcome to Vuetify Test App</h1>
+          <h1>Welcome to Vuetify Starter App</h1>
         </v-col>
         <v-col cols="12">
           <v-card width="400px" class="mx-auto">
