@@ -2,7 +2,7 @@
 
 ## Demo
 [Demo](https://otatar.github.io/vuetify-starter-app)
-Usernmae: admin, Password: admin
+- Username: admin, Password: admin
 
 ## Project setup
 ```
