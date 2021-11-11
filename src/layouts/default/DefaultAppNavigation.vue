@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar app elevation="0" color="transparent" elevate-on-scroll>
+    <v-app-bar app elevation="0" elevate-on-scroll>
       <v-app-bar-nav-icon class="hidden-md-and-up" @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-btn text class="ml-3 mr-4 hidden-sm-and-down" fab small @click="mini = !mini"><v-icon>{{ mini ? 'mdi-format-list-bulleted' : 'mdi-dots-vertical' }}</v-icon></v-btn>
       <v-toolbar-title class="font-weight-light text-h5" v-text="name"/>
@@ -77,7 +77,7 @@ export default {
   name: 'DefaultAppNavigation',
   data() {
     return {
-        drawer: true,
+        drawer: null,
         mini: false,
         group: null,
         dialog: false,

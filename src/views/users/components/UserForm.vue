@@ -5,7 +5,7 @@
       <v-form id="user-form" @submit.prevent="onSubmit()">
         <v-container>
           <v-row>
-            <v-col cols="1">
+            <v-col cols="12" sm="3">
               <base-input disabled label="ID" v-model="form.id" />
             </v-col>
           </v-row>
